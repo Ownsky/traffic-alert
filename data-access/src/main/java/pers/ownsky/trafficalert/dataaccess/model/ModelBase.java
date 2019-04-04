@@ -16,5 +16,5 @@ public abstract class ModelBase {
     @Id
 //    @JsonIgnore
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    Long id;
 }

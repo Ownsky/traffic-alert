@@ -17,7 +17,7 @@ public class AuthController {
     private final UserService userService;
 
     @GetMapping("/login")
-    public ResponseEntity<String> test(String phone, String password) {
+    public ResponseEntity<String> login(String phone, String password) {
         String token = userService.login(phone, password);
         return new ResponseEntity<>(token, HttpStatus.OK);
     }

@@ -10,7 +10,9 @@ spring:
     name: ta-oss-api
 
 oss:
-  accessKey:
-  secretKey:
-  bucket:
+  accessKey: uHFbZgZtLmNY5PqpWKVu9NVwm54KYDus9MV_ns-2
+  secretKey: 05D_Hd4hIcW7GdI8k4EFnrF6T8FtFDwOFFTDfLDo
+  bucket: ownsky-traffic-alert
+  callbackUrl: http://api.example.com/qiniu/upload/callback
+  expire: 3600
 

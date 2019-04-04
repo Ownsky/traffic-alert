@@ -8,7 +8,9 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class Record extends ModelBase {
     User uploader;
-    String video;
+    String videoKey;
+    String videoHash;
+    String videoSize;
     String audio;
     CarPlate toCar;
     Boolean checked;

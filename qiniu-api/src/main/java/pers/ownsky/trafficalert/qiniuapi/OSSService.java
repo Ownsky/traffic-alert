@@ -21,15 +21,29 @@ public class OSSService {
     @Value("${oss.bucket}")
     String bucket;
 
+    @Value("$(oss.callbackUrl)")
+    String callbackUrl;
+
+    @Value("${oss.expire}")
+    long expireSeconds;
+
     String getUploadAuthToken() {
         Auth auth = Auth.create(accessKey, secretKey);
         StringMap putPolicy = new StringMap();
-        putPolicy.put("callbackUrl", "http://api.example.com/qiniu/upload/callback");
-        putPolicy.put("callbackBody", "{\"key\":\"$(key)\",\"hash\":\"$(etag)\",\"fsize\":$(fsize)}");
+        putPolicy.put("callbackUrl", callbackUrl);
+        putPolicy.put("callbackBody", "{" +
+                "\"key\":\"$(key)\"," +
+                "\"hash\":\"$(etag)\"," +
+                "\"fsize\":$(fsize)," +
+                "\"recid\":$(x:recid)" +
+                "}");
         putPolicy.put("callbackBodyType", "application/json");
-        long expireSeconds = 3600;
+//        long expireSeconds = 3600;
         String upToken = auth.uploadToken(bucket, null, expireSeconds, putPolicy);
 //        System.out.println(upToken);
         return upToken;
     }
+
+
+
 }
