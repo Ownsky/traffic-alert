@@ -1,0 +1,28 @@
+server:
+  port: 8762
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: ta-user-auth
+  redis:
+    host: localhost
+    port: 13301
+    database: 0
+    password: 123456
+
+jwt:
+  secret: 64s2bqf34v8F
+  expiration: 120000 # 43200000 #millisec 12h
+  refresh:
+    before: 60000 # 14400000 #millisec 4h
+#  refresh:
+#    expiration: 604800 #sec 7d
+
+
+#feign:
+#  hystrix:
+#    enabled: true

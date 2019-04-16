@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "zuul.routes.user-api",
+      "type": "pers.ownsky.trafficalert.usergate.filter.UserUnauthConfig",
+      "sourceType": "pers.ownsky.trafficalert.usergate.filter.UserUnauthConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "zuul.routes.user-api.path",
+      "type": "java.lang.String",
+      "sourceType": "pers.ownsky.trafficalert.usergate.filter.UserUnauthConfig"
+    },
+    {
+      "name": "zuul.routes.user-api.unauth-api",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "pers.ownsky.trafficalert.usergate.filter.UserUnauthConfig"
+    }
+  ],
+  "hints": []
+}
