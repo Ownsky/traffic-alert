@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/data-access/data-access.iml" filepath="$PROJECT_DIR$/data-access/data-access.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/public-utils/public-utils.iml" filepath="$PROJECT_DIR$/public-utils/public-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qiniu-api/qiniu-api.iml" filepath="$PROJECT_DIR$/qiniu-api/qiniu-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/traffic-alert.iml" filepath="$PROJECT_DIR$/traffic-alert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-api/user-api.iml" filepath="$PROJECT_DIR$/user-api/user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-auth/user-auth.iml" filepath="$PROJECT_DIR$/user-auth/user-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-gate/user-gate.iml" filepath="$PROJECT_DIR$/user-gate/user-gate.iml" />
+    </modules>
+  </component>
+</project>

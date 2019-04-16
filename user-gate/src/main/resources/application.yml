@@ -1,0 +1,18 @@
+server:
+  port: 8880
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: ta-user-gate
+
+zuul:
+  routes:
+    user-api:
+      path: /user-api/**
+      serviceId: ta-user-api
+      unauthApi: [login, register]

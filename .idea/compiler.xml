@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="data-access" />
+        <module name="eureka-server" />
+        <module name="public-utils" />
+        <module name="qiniu-api" />
+        <module name="traffic-alert" />
+        <module name="user-api" />
+        <module name="user-auth" />
+        <module name="user-gate" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="data-access" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eurika-server" target="1.8" />
+      <module name="eurikaserver" target="1.8" />
+      <module name="public-utils" target="1.5" />
+      <module name="qiniu-api" target="1.8" />
+      <module name="test-cli" target="1.8" />
+      <module name="traffic-alert" target="1.8" />
+      <module name="user-api" target="1.8" />
+      <module name="user-auth" target="1.8" />
+      <module name="user-gate" target="1.8" />
+      <module name="user-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
