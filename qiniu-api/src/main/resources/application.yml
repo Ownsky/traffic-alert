@@ -1,5 +1,5 @@
 server:
-  port: 8770
+  port: 64648
 
 eureka:
   client:
@@ -13,6 +13,8 @@ oss:
   accessKey: uHFbZgZtLmNY5PqpWKVu9NVwm54KYDus9MV_ns-2
   secretKey: 05D_Hd4hIcW7GdI8k4EFnrF6T8FtFDwOFFTDfLDo
   bucket: ownsky-traffic-alert
-  callbackUrl: http://api.example.com/qiniu/upload/callback
+#  callbackUrl: http://requestbin.fullcontact.com/16gmujy1/adsf
+#  callbackUrl: bugjlu.org:80/aaa
+  callbackUrl: http://dorm.bugjlu.org:64649/oss/upload/callback
   expire: 3600
 

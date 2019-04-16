@@ -1,17 +1,19 @@
-package pers.ownsky.trafficalert.qiniuapi;
+package pers.ownsky.trafficalert.usergate;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
+@EnableZuulProxy
 @EnableEurekaClient
 @EnableFeignClients
-public class QiniuApiApplication {
+public class UserGateApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(QiniuApiApplication.class, args);
+		SpringApplication.run(UserGateApplication.class, args);
 	}
 
 }

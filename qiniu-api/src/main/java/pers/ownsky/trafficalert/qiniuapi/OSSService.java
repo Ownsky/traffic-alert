@@ -7,10 +7,12 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import pers.ownsky.trafficalert.publicutils.model.OSSCallbackVo;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class OSSService {
+    private final DataAccess dataAccess;
 
     @Value("${oss.accessKey}")
     String accessKey;
@@ -21,7 +23,7 @@ public class OSSService {
     @Value("${oss.bucket}")
     String bucket;
 
-    @Value("$(oss.callbackUrl)")
+    @Value("${oss.callbackUrl}")
     String callbackUrl;
 
     @Value("${oss.expire}")
@@ -30,6 +32,7 @@ public class OSSService {
     String getUploadAuthToken() {
         Auth auth = Auth.create(accessKey, secretKey);
         StringMap putPolicy = new StringMap();
+        System.out.println(callbackUrl);
         putPolicy.put("callbackUrl", callbackUrl);
         putPolicy.put("callbackBody", "{" +
                 "\"key\":\"$(key)\"," +
@@ -38,12 +41,12 @@ public class OSSService {
                 "\"recid\":$(x:recid)" +
                 "}");
         putPolicy.put("callbackBodyType", "application/json");
-//        long expireSeconds = 3600;
         String upToken = auth.uploadToken(bucket, null, expireSeconds, putPolicy);
-//        System.out.println(upToken);
         return upToken;
     }
 
-
+    String postUpload(OSSCallbackVo ossCallbackVo) {
+        return dataAccess.postUpload(ossCallbackVo).getBody();
+    }
 
 }

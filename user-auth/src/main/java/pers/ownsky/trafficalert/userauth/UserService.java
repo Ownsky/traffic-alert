@@ -31,17 +31,17 @@ public class UserService {
      * 1. check token in black list, if exist, auth fail
      * 2. check token expire status, if expire, auth fail
      * @author: Ownsky
-     * @Param:  phone, token
+     * @Param:  token
      * @Return: new token if old one is about to expire
      * @Thorws: AuthFailException
      * @Date:   2019/3/21
      */
-    String check(String phone, String token) {
-        DecodedJWT jwt = jwtUtil.verifyToken(token);
-
-        if (!phone.equals(jwt.getClaim("phone").asString())) {
-            throw new AuthFailException("Unavailable token.");
+    String check(String token) {
+        if (token == null) {
+            throw new AuthFailException("Unauthorized user");
         }
+        DecodedJWT jwt = jwtUtil.verifyToken(token);
+        String phone = jwt.getClaim("phone").asString();
 
         // check if token has been abandoned
         String sign = jwt.getSignature();
@@ -62,14 +62,15 @@ public class UserService {
             token = generateToken(phone);
             return token;
         }
-        return null;
+        return phone;
     }
 
-    void logout(String phone, String token) {
+    void logout(String token) {
         if (token == null) {
-            throw new AuthFailException("Unauthorized user "+phone);
+            throw new AuthFailException("Unauthorized user");
         }
         DecodedJWT jwt = jwtUtil.verifyToken(token);
+        String phone = jwt.getClaim("phone").asString();
         String sign = jwt.getSignature();
         String abandon = stringRedisTemplate.opsForValue().get(sign);
 
@@ -108,10 +109,5 @@ public class UserService {
 //                TimeUnit.MILLISECONDS);
         return jwtToken;
     }
-
-//    User getUser(String phone) {
-//
-//    }
-
 
 }

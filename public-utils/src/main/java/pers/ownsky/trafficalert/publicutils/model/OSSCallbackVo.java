@@ -6,6 +6,6 @@ import lombok.Data;
 public class OSSCallbackVo {
     String key;
     String hash;
-    String fsize;
+    Long fsize;
     Long recid;
 }

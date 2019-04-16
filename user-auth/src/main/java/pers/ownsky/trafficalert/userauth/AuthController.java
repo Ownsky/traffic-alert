@@ -6,11 +6,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import pers.ownsky.trafficalert.publicutils.json.RestException;
 import pers.ownsky.trafficalert.publicutils.model.User;
 
 @RestController
+@RequestMapping("/auth")
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class AuthController {
 
@@ -24,13 +26,15 @@ public class AuthController {
 
     @GetMapping("/logout")
     public ResponseEntity<String> logout(String phone, String token) {
-        userService.logout(phone, token);
+        userService.logout(token);
+
         return new ResponseEntity<>("logout success", HttpStatus.OK);
     }
 
-    @GetMapping("check")
+    @GetMapping("/check")
     public ResponseEntity<String> check(String phone, String token) {
-        String newt = userService.check(phone, token);
+        String newt = userService.check(token);
+
         if (newt == null) {
             return new ResponseEntity<>("check passed", HttpStatus.OK);
         }

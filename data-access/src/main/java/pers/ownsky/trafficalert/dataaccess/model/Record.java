@@ -12,10 +12,12 @@ import javax.persistence.ManyToOne;
 public class Record extends ModelBase {
     @ManyToOne
     User uploader;
+    Double lat;
+    Double lng;
 //    String video;
     String videoKey;
     String videoHash;
-    String videoSize;
+    Long videoSize;
     String audio;
     @ManyToOne
     CarPlate toCar;

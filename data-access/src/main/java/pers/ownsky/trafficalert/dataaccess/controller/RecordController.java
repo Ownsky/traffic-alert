@@ -12,6 +12,7 @@ import pers.ownsky.trafficalert.dataaccess.model.User;
 import pers.ownsky.trafficalert.dataaccess.repository.RecordRepository;
 import pers.ownsky.trafficalert.dataaccess.repository.UserRepository;
 import pers.ownsky.trafficalert.publicutils.json.RestException;
+import pers.ownsky.trafficalert.publicutils.json.UserNotFoundException;
 import pers.ownsky.trafficalert.publicutils.model.OSSCallbackVo;
 
 @RestController
@@ -32,17 +33,13 @@ public class RecordController {
      */
     @TargetDataSource("main")
     @GetMapping("/preUpload")
-    public ResponseEntity<Long> preUpload(@RequestParam String phone) {
-        User user = userRepository.findByPhone(phone);
-        Record record = new Record();
-        record.setUploader(user);
-        record.setChecked(false);
+    public ResponseEntity<Long> newRecord(@RequestBody Record record) {
         record = recordRepository.save(record);
         return new ResponseEntity<>(record.getId(), HttpStatus.CREATED);
     }
 
     @TargetDataSource("main")
-    @PostMapping("postUpload")
+    @PostMapping("/postUpload")
     public ResponseEntity<String> postUpload(@RequestBody OSSCallbackVo callback) {
         Record record = recordRepository.findById(callback.getRecid()).orElse(null);
         if (record == null) {
