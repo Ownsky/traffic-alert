@@ -1,7 +1,10 @@
 package pers.ownsky.trafficalert.publicutils.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+
+import java.util.Date;
 
 
 @Data
@@ -15,5 +18,9 @@ public class Record extends ModelBase {
     Long videoSize;
     String audio;
     CarPlate toCar;
+    String message;
+    @JsonFormat(timezone = "GMT+8", pattern = "yyyyMMddHHmmss")
+    Date date;
     Boolean checked;
+    Boolean pushed;
 }

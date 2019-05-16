@@ -7,6 +7,6 @@ import lombok.EqualsAndHashCode;
 @Data
 @EqualsAndHashCode
 public abstract class ModelBase {
-    @JsonIgnore
+//    @JsonIgnore
     private Long id;
 }

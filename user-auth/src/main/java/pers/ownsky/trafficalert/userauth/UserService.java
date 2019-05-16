@@ -11,6 +11,8 @@ import pers.ownsky.trafficalert.publicutils.json.AuthFailException;
 import pers.ownsky.trafficalert.publicutils.model.User;
 
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 @Service
@@ -36,7 +38,7 @@ public class UserService {
      * @Thorws: AuthFailException
      * @Date:   2019/3/21
      */
-    String check(String token) {
+    Map<String, Object> check(String token) {
         if (token == null) {
             throw new AuthFailException("Unauthorized user");
         }
@@ -57,12 +59,16 @@ public class UserService {
             throw new AuthExpiredException(phone);
         }
 
+        Map<String, Object> result = new HashMap<>();
+        result.put("phone", phone);
+
         // about to expire, renew token
         if (expire.getTime() - now.getTime() < jwtUtil.refreshBefore) {
             token = generateToken(phone);
-            return token;
+            result.put("token", token);
         }
-        return phone;
+
+        return result;
     }
 
     void logout(String token) {

@@ -17,7 +17,6 @@ public class DataSourceAspect {
 
     private String readBalance() {
         int rand = new Random().nextInt(2)+1;
-//        int rand = 2;
         return "read"+rand;
     }
 
@@ -30,7 +29,6 @@ public class DataSourceAspect {
         Object target = joinPoint.getTarget();
         String context = joinPoint.getSignature().toString();
         String method = joinPoint.getSignature().getName();
-//        System.out.println("asp: "+method+joinPoint.hashCode());
         Class<?> clazz = target.getClass();
         Class<?>[] ifaces = target.getClass().getInterfaces();
         Class<?>[] parameterTypes = ((MethodSignature) joinPoint.getSignature()).getMethod().getParameterTypes();
@@ -62,16 +60,12 @@ public class DataSourceAspect {
                 DataSourceContextHolder.putDataSource(dsName, context);
             }
         } catch (Exception e) {
-//            e.printStackTrace();
         }
     }
 
     @After("dsPointCut()")
     public void after(JoinPoint joinPoint) {
-//        System.out.println("after asp: "+joinPoint.getSignature().getName()+joinPoint.getSignature().toString());
         DataSourceContextHolder.removeDataSource(joinPoint.getSignature().toString());
     }
-
-
 
 }

@@ -13,6 +13,7 @@ import pers.ownsky.trafficalert.publicutils.model.OSSCallbackVo;
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class OSSService {
     private final DataAccess dataAccess;
+    private final MQSendService mqService;
 
     @Value("${oss.accessKey}")
     String accessKey;
@@ -46,7 +47,9 @@ public class OSSService {
     }
 
     String postUpload(OSSCallbackVo ossCallbackVo) {
-        return dataAccess.postUpload(ossCallbackVo).getBody();
+        String res = dataAccess.postUpload(ossCallbackVo).getBody();
+        mqService.send(ossCallbackVo.getRecid().toString());
+        return res;
     }
 
 }

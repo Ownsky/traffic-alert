@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 import pers.ownsky.trafficalert.publicutils.json.RestException;
 import pers.ownsky.trafficalert.publicutils.model.User;
 
+import java.util.Map;
+
 @RestController
 @RequestMapping("/auth")
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
@@ -25,20 +27,17 @@ public class AuthController {
     }
 
     @GetMapping("/logout")
-    public ResponseEntity<String> logout(String phone, String token) {
+    public ResponseEntity<String> logout(String token) {
         userService.logout(token);
 
         return new ResponseEntity<>("logout success", HttpStatus.OK);
     }
 
     @GetMapping("/check")
-    public ResponseEntity<String> check(String phone, String token) {
-        String newt = userService.check(token);
+    public ResponseEntity<Map<String, Object>> check(String token) {
+        Map<String, Object> result = userService.check(token);
 
-        if (newt == null) {
-            return new ResponseEntity<>("check passed", HttpStatus.OK);
-        }
-        return new ResponseEntity<>(newt, HttpStatus.CREATED);
+        return new ResponseEntity<>(result, HttpStatus.CREATED);
     }
 
 }

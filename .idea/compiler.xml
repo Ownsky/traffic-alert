@@ -6,14 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="data-access" />
-        <module name="eureka-server" />
-        <module name="public-utils" />
         <module name="qiniu-api" />
-        <module name="traffic-alert" />
-        <module name="user-api" />
-        <module name="user-auth" />
+        <module name="eureka-server" />
         <module name="user-gate" />
+        <module name="user-api" />
+        <module name="manager-api" />
+        <module name="traffic-alert" />
+        <module name="user-auth" />
+        <module name="public-utils" />
+        <module name="data-access" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="eureka-server" target="1.8" />
       <module name="eurika-server" target="1.8" />
       <module name="eurikaserver" target="1.8" />
+      <module name="manager-api" target="1.8" />
       <module name="public-utils" target="1.5" />
       <module name="qiniu-api" target="1.8" />
       <module name="test-cli" target="1.8" />
@@ -30,5 +32,17 @@
       <module name="user-gate" target="1.8" />
       <module name="user-service" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="data-access" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="manager-api" options="-parameters" />
+      <module name="qiniu-api" options="-parameters" />
+      <module name="traffic-alert" options="-parameters" />
+      <module name="user-api" options="-parameters" />
+      <module name="user-auth" options="-parameters" />
+      <module name="user-gate" options="-parameters" />
+    </option>
   </component>
 </project>

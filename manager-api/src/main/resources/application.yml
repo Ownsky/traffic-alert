@@ -1,0 +1,33 @@
+server:
+  port: 25451
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: manager-api
+  redis:
+    host: localhost
+    port: 13301
+    database: 1
+    password: 123456
+  cloud:
+    stream:
+      instance-count: 1
+      instance-index: 0
+      default-binder: kafka
+      kafka:
+        binder:
+          brokers: 127.0.0.1:9092 #, PLAINTEXT://127.0.0.1:3315, PLAINTEXT://127.0.0.1:3316
+#          zk-nodes: PLAINTEXT://127.0.0.1:3311, PLAINTEXT://127.0.0.1:3312, PLAINTEXT://127.0.0.1:3313
+          auto-add-partitions: true
+          auto-create-topics: true
+          min-partition-count: 1
+      bindings:
+        input:
+          destination: topic-check
+          content-type: text/plain
+

@@ -16,9 +16,9 @@ spring:
 
 jwt:
   secret: 64s2bqf34v8F
-  expiration: 120000 # 43200000 #millisec 12h
+  expiration: 43200000 # 120000  #millisec 12h
   refresh:
-    before: 60000 # 14400000 #millisec 4h
+    before: 14400000 # 60000  #millisec 4h
 #  refresh:
 #    expiration: 604800 #sec 7d
 

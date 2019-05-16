@@ -15,4 +15,4 @@ zuul:
     user-api:
       path: /user-api/**
       serviceId: ta-user-api
-      unauthApi: [login, register]
+      unauthApi: [login, register, logout]

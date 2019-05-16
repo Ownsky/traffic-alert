@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/data-access/data-access.iml" filepath="$PROJECT_DIR$/data-access/data-access.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager-api/manager-api.iml" filepath="$PROJECT_DIR$/manager-api/manager-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/public-utils/public-utils.iml" filepath="$PROJECT_DIR$/public-utils/public-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/qiniu-api/qiniu-api.iml" filepath="$PROJECT_DIR$/qiniu-api/qiniu-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/traffic-alert.iml" filepath="$PROJECT_DIR$/traffic-alert.iml" />

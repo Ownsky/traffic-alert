@@ -27,21 +27,21 @@ public class OSSController {
         return new ResponseEntity<>("not supported", HttpStatus.METHOD_NOT_ALLOWED);
     }
 
-//    @PostMapping("/upload/callback")
-//    public ResponseEntity<String> uploadCallback(@RequestBody OSSCallbackVo ossCallbackVo) {
-//        //TODO: after upload
-//        System.out.println("!");
-//        System.out.println(ossCallbackVo.getKey());
-//
-//        try {
-//            ossService.postUpload(ossCallbackVo);
-//        } catch (Exception ignored) {}
-//        return new ResponseEntity<>("OK", HttpStatus.OK);
-//    }
-
     @PostMapping("/upload/callback")
-    public ResponseEntity<String> uploadCallback2(HttpServletRequest request) {
-        System.out.println("!!!");
+    public ResponseEntity<String> uploadCallback(@RequestBody OSSCallbackVo ossCallbackVo) {
+        //TODO: after upload
+        System.out.println("!");
+        System.out.println(ossCallbackVo.getKey());
+
+//        try {
+            ossService.postUpload(ossCallbackVo);
+//        } catch (Exception ignored) {}
         return new ResponseEntity<>("OK", HttpStatus.OK);
     }
+
+//    @PostMapping("/upload/callback")
+//    public ResponseEntity<String> uploadCallback2(HttpServletRequest request) {
+//        System.out.println("!!!");
+//        return new ResponseEntity<>("OK", HttpStatus.OK);
+//    }
 }

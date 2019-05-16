@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
@@ -16,7 +17,7 @@ import java.util.List;
 @EqualsAndHashCode(callSuper = true)
 public class User extends ModelBase {
     String name;
-    @JsonIgnore
+//    @JsonIgnore
     String password;
     @Column(unique = true, nullable = false)
     String phone;
