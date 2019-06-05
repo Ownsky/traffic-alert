@@ -1,0 +1,7 @@
+pers\ownsky\trafficalert\userauth\AuthController.class
+pers\ownsky\trafficalert\userauth\RestErrorDecoder.class
+pers\ownsky\trafficalert\userauth\JWTUtil.class
+pers\ownsky\trafficalert\userauth\TaControllerAdvice.class
+pers\ownsky\trafficalert\userauth\UserService.class
+pers\ownsky\trafficalert\userauth\DataAccess.class
+pers\ownsky\trafficalert\userauth\UserAuthApplication.class

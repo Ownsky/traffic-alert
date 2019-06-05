@@ -11,7 +11,6 @@
         <module name="user-gate" />
         <module name="user-api" />
         <module name="manager-api" />
-        <module name="traffic-alert" />
         <module name="user-auth" />
         <module name="public-utils" />
         <module name="data-access" />
@@ -39,7 +38,7 @@
       <module name="eureka-server" options="-parameters" />
       <module name="manager-api" options="-parameters" />
       <module name="qiniu-api" options="-parameters" />
-      <module name="traffic-alert" options="-parameters" />
+      <module name="traffic-alert" options="" />
       <module name="user-api" options="-parameters" />
       <module name="user-auth" options="-parameters" />
       <module name="user-gate" options="-parameters" />

@@ -43,7 +43,7 @@ public class AuthFilter extends ZuulFilter {
     public Object run() throws ZuulException {
         RequestContext context = RequestContext.getCurrentContext();
         HttpServletRequest request = context.getRequest();
-        System.out.println(request.getRequestURL());
+//        System.out.println(request.getRequestURL());
         Map<String, String[]> map = request.getParameterMap();
         Enumeration<String> list = request.getAttributeNames();
         String token = request.getHeader("auth-token");

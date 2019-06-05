@@ -1,101 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="data-access:jar" />
+      <artifact name="eureka-server:jar" />
+      <artifact name="manager-api:jar" />
+      <artifact name="qiniu-api:jar" />
+      <artifact name="user-api:jar" />
+      <artifact name="user-auth:jar" />
+      <artifact name="user-gate:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a3f5ac9c-58a3-4ba6-89ce-786859fe4d58" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_context_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_core_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_2_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_kafka_2_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_kafka_core_2_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_core_5_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_jmx_5_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_kafka_3_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_tuple_1_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tuple_1_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/controller/CarPlateController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/repository/CarPlateRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager-api/src/main/java/pers/ownsky/trafficalert/managerapi/DataAccessService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager-api/src/main/java/pers/ownsky/trafficalert/managerapi/MQListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager-api/src/main/java/pers/ownsky/trafficalert/managerapi/ManagerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager-api/src/main/java/pers/ownsky/trafficalert/managerapi/RestErrorDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager-api/src/main/java/pers/ownsky/trafficalert/managerapi/TaControllerAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qiniu-api/src/main/java/pers/ownsky/trafficalert/qiniuapi/MQSendService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/controller/VO/Coordinate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/data_access_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/eureka_server_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/manager_api_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/qiniu_api_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/user_api_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/user_auth_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/user_gate_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-access/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-access/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager-api/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager-api/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiniu-api/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiniu-api/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-auth/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-auth/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-gate/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-gate/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96d6098d-dc71-4291-a6d5-be35f13716bc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96d6098d-dc71-4291-a6d5-be35f13716bc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_qiniu_java_sdk_7_2_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_qiniu_java_sdk_7_2_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_dependencies_unknown.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/controller/RecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/controller/RecordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/datasource/DataSourceAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/datasource/DataSourceAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/model/CarPlate.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/model/CarPlate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/model/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/model/Record.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/repository/RecordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/repository/RecordRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/DataAccessApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/DataAccessApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/controller/RecordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/controller/RecordController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/controller/TaControllerAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/controller/TaControllerAdvice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/datasource/DBProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/datasource/DBProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/datasource/DataSourceAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/datasource/DataSourceAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/datasource/DataSourceContextHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/datasource/DataSourceContextHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/model/CarPlate.class" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/model/CarPlate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/model/ModelBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/model/ModelBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/model/Record.class" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/model/Record.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/model/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/model/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/repository/RecordRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/repository/RecordRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/repository/TestRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/repository/TestRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/target/classes/pers/ownsky/trafficalert/dataaccess/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/pers/ownsky/trafficalert/eurekaserver/EurekaServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/classes/pers/ownsky/trafficalert/eurekaserver/EurekaServerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public-utils/src/main/java/pers/ownsky/trafficalert/publicutils/model/ModelBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/public-utils/src/main/java/pers/ownsky/trafficalert/publicutils/model/ModelBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public-utils/src/main/java/pers/ownsky/trafficalert/publicutils/model/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/public-utils/src/main/java/pers/ownsky/trafficalert/publicutils/model/Record.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public-utils/target/classes/pers/ownsky/trafficalert/publicutils/model/ModelBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/public-utils/target/classes/pers/ownsky/trafficalert/publicutils/model/ModelBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public-utils/target/classes/pers/ownsky/trafficalert/publicutils/model/Record.class" beforeDir="false" afterPath="$PROJECT_DIR$/public-utils/target/classes/pers/ownsky/trafficalert/publicutils/model/Record.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access/data-access.iml" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/data-access.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-access/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-access/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/eureka-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/eureka-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manager-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public-utils/public-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/public-utils/public-utils.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qiniu-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qiniu-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qiniu-api/qiniu-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/qiniu-api/qiniu-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiniu-api/src/main/java/pers/ownsky/trafficalert/qiniuapi/OSSController.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiniu-api/src/main/java/pers/ownsky/trafficalert/qiniuapi/OSSController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiniu-api/src/main/java/pers/ownsky/trafficalert/qiniuapi/OSSService.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiniu-api/src/main/java/pers/ownsky/trafficalert/qiniuapi/OSSService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiniu-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qiniu-api/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiniu-api/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qiniu-api/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiniu-api/target/classes/pers/ownsky/trafficalert/qiniuapi/DataAccess.class" beforeDir="false" afterPath="$PROJECT_DIR$/qiniu-api/target/classes/pers/ownsky/trafficalert/qiniuapi/DataAccess.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiniu-api/target/classes/pers/ownsky/trafficalert/qiniuapi/OSSController.class" beforeDir="false" afterPath="$PROJECT_DIR$/qiniu-api/target/classes/pers/ownsky/trafficalert/qiniuapi/OSSController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiniu-api/target/classes/pers/ownsky/trafficalert/qiniuapi/OSSService.class" beforeDir="false" afterPath="$PROJECT_DIR$/qiniu-api/target/classes/pers/ownsky/trafficalert/qiniuapi/OSSService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiniu-api/target/classes/pers/ownsky/trafficalert/qiniuapi/QiniuApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/qiniu-api/target/classes/pers/ownsky/trafficalert/qiniuapi/QiniuApiApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiniu-api/target/classes/pers/ownsky/trafficalert/qiniuapi/RestErrorDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/qiniu-api/target/classes/pers/ownsky/trafficalert/qiniuapi/RestErrorDecoder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiniu-api/target/classes/pers/ownsky/trafficalert/qiniuapi/TaControllerAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/qiniu-api/target/classes/pers/ownsky/trafficalert/qiniuapi/TaControllerAdvice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/controller/UserServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/controller/UserServiceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/remoteservice/UserDataAccessService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/remoteservice/UserDataAccessService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-api/target/classes/pers/ownsky/trafficalert/userapi/controller/UserServiceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-api/target/classes/pers/ownsky/trafficalert/userapi/controller/UserServiceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-api/target/classes/pers/ownsky/trafficalert/userapi/remoteservice/UserDataAccessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-api/target/classes/pers/ownsky/trafficalert/userapi/remoteservice/UserDataAccessService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-api/target/classes/pers/ownsky/trafficalert/userapi/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-api/target/classes/pers/ownsky/trafficalert/userapi/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-auth/src/main/java/pers/ownsky/trafficalert/userauth/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-auth/src/main/java/pers/ownsky/trafficalert/userauth/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-auth/src/main/java/pers/ownsky/trafficalert/userauth/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-auth/src/main/java/pers/ownsky/trafficalert/userauth/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/traffic-alert.iml" beforeDir="false" afterPath="$PROJECT_DIR$/traffic-alert.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-api/target/classes/pers/ownsky/trafficalert/userapi/UserApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-api/target/classes/pers/ownsky/trafficalert/userapi/UserApiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-api/target/classes/pers/ownsky/trafficalert/userapi/controller/TaControllerAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-api/target/classes/pers/ownsky/trafficalert/userapi/controller/TaControllerAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-api/target/classes/pers/ownsky/trafficalert/userapi/remoteservice/RestErrorDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-api/target/classes/pers/ownsky/trafficalert/userapi/remoteservice/RestErrorDecoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-api/target/classes/pers/ownsky/trafficalert/userapi/remoteservice/UserAuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-api/target/classes/pers/ownsky/trafficalert/userapi/remoteservice/UserAuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-api/user-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-api/user-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-auth/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-auth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-auth/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-auth/target/classes/pers/ownsky/trafficalert/userauth/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-auth/target/classes/pers/ownsky/trafficalert/userauth/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-auth/target/classes/pers/ownsky/trafficalert/userauth/DataAccess.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-auth/target/classes/pers/ownsky/trafficalert/userauth/DataAccess.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-auth/target/classes/pers/ownsky/trafficalert/userauth/JWTUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-auth/target/classes/pers/ownsky/trafficalert/userauth/JWTUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-auth/target/classes/pers/ownsky/trafficalert/userauth/RestErrorDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-auth/target/classes/pers/ownsky/trafficalert/userauth/RestErrorDecoder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-auth/target/classes/pers/ownsky/trafficalert/userauth/TaControllerAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-auth/target/classes/pers/ownsky/trafficalert/userauth/TaControllerAdvice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-auth/target/classes/pers/ownsky/trafficalert/userauth/UserAuthApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-auth/target/classes/pers/ownsky/trafficalert/userauth/UserAuthApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-auth/target/classes/pers/ownsky/trafficalert/userauth/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-auth/target/classes/pers/ownsky/trafficalert/userauth/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-auth/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-auth/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-auth/user-auth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-auth/user-auth.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-gate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-gate/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-gate/src/main/java/pers/ownsky/trafficalert/usergate/filter/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-gate/src/main/java/pers/ownsky/trafficalert/usergate/filter/AuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-gate/src/main/java/pers/ownsky/trafficalert/usergate/service/UserAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-gate/src/main/java/pers/ownsky/trafficalert/usergate/service/UserAuthService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-gate/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-gate/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-gate/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/user-gate/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-gate/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-gate/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-gate/target/classes/pers/ownsky/trafficalert/usergate/UserGateApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-gate/target/classes/pers/ownsky/trafficalert/usergate/UserGateApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-gate/target/classes/pers/ownsky/trafficalert/usergate/filter/AuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-gate/target/classes/pers/ownsky/trafficalert/usergate/filter/AuthFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-gate/target/classes/pers/ownsky/trafficalert/usergate/filter/UserUnauthConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-gate/target/classes/pers/ownsky/trafficalert/usergate/filter/UserUnauthConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-gate/target/classes/pers/ownsky/trafficalert/usergate/service/RestErrorDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-gate/target/classes/pers/ownsky/trafficalert/usergate/service/RestErrorDecoder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-gate/target/classes/pers/ownsky/trafficalert/usergate/service/UserAuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-gate/target/classes/pers/ownsky/trafficalert/usergate/service/UserAuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-gate/user-gate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-gate/user-gate.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -174,28 +145,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public-utils/src/main/java/pers/ownsky/trafficalert/publicutils/model/OSSCallbackVo.java">
+        <entry file="file://$PROJECT_DIR$/user-gate/src/main/java/pers/ownsky/trafficalert/usergate/UserGateApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="119">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://96d6098d-dc71-4291-a6d5-be35f13716bc/schema/testdb/table/record">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/controller/UserServiceController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manager-api/src/main/java/pers/ownsky/trafficalert/managerapi/MQListener.java">
+        <entry file="file://$PROJECT_DIR$/user-gate/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="408">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/controller/CarPlateController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qiniu-api/src/main/java/pers/ownsky/trafficalert/qiniuapi/OSSController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manager-api/src/main/java/pers/ownsky/trafficalert/managerapi/RestErrorDecoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -204,68 +205,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/model/Record.java">
+        <entry file="file://$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+            <state relative-caret-position="476">
+              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/model/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/model/CarPlate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public-utils/src/main/java/pers/ownsky/trafficalert/publicutils/model/Record.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/manager-api/src/main/java/pers/ownsky/trafficalert/managerapi/ManagerApiApplication.java">
+        <entry file="file://$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/controller/TaControllerAdvice.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-gate/src/main/java/pers/ownsky/trafficalert/usergate/filter/AuthFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
               <folding>
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/model/ModelBase.java">
+        <entry file="file://$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/remoteservice/UserDataAccessService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="102">
+              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -300,11 +273,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/user-gate/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/remoteservice/UserAuthService.java" />
-        <option value="$PROJECT_DIR$/user-gate/src/main/java/pers/ownsky/trafficalert/usergate/service/RestErrorDecoder.java" />
-        <option value="$PROJECT_DIR$/user-gate/src/main/java/pers/ownsky/trafficalert/usergate/filter/UserUnauthConfig.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/user-gate/.gitignore" />
         <option value="$PROJECT_DIR$/user-auth/.gitignore" />
         <option value="$PROJECT_DIR$/user-api/.gitignore" />
@@ -312,18 +280,13 @@
         <option value="$PROJECT_DIR$/public-utils/.gitignore" />
         <option value="$PROJECT_DIR$/eureka-server/.gitignore" />
         <option value="$PROJECT_DIR$/data-access/.gitignore" />
-        <option value="$PROJECT_DIR$/user-gate/pom.xml" />
-        <option value="$PROJECT_DIR$/user-auth/pom.xml" />
         <option value="$PROJECT_DIR$/user-gate/src/main/java/pers/ownsky/trafficalert/usergate/service/UserAuthService.java" />
         <option value="$PROJECT_DIR$/user-auth/src/main/java/pers/ownsky/trafficalert/userauth/AuthController.java" />
         <option value="$PROJECT_DIR$/user-auth/src/main/java/pers/ownsky/trafficalert/userauth/UserService.java" />
         <option value="$PROJECT_DIR$/public-utils/src/main/java/pers/ownsky/trafficalert/publicutils/model/User.java" />
         <option value="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/model/CarPlate.java" />
-        <option value="$PROJECT_DIR$/user-gate/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/datasource/DataSourceAspect.java" />
         <option value="$PROJECT_DIR$/qiniu-api/src/main/java/pers/ownsky/trafficalert/qiniuapi/OSSController.java" />
-        <option value="$PROJECT_DIR$/qiniu-api/pom.xml" />
-        <option value="$PROJECT_DIR$/manager-api/pom.xml" />
         <option value="$PROJECT_DIR$/qiniu-api/src/main/java/pers/ownsky/trafficalert/qiniuapi/MQSendService.java" />
         <option value="$PROJECT_DIR$/qiniu-api/src/main/java/pers/ownsky/trafficalert/qiniuapi/OSSService.java" />
         <option value="$PROJECT_DIR$/qiniu-api/src/main/resources/application.yml" />
@@ -342,15 +305,25 @@
         <option value="$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/remoteservice/UserDataAccessService.java" />
         <option value="$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/controller/UserServiceController.java" />
         <option value="$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/controller/VO/Coordinate.java" />
-        <option value="$PROJECT_DIR$/user-gate/src/main/java/pers/ownsky/trafficalert/usergate/filter/AuthFilter.java" />
         <option value="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/model/User.java" />
-        <option value="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/controller/UserController.java" />
         <option value="$PROJECT_DIR$/public-utils/src/main/java/pers/ownsky/trafficalert/publicutils/model/Record.java" />
         <option value="$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/service/UserService.java" />
-        <option value="$PROJECT_DIR$/user-auth/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/controller/RecordController.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/model/Record.java" />
+        <option value="$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/controller/UserController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/data-access/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/manager-api/pom.xml" />
+        <option value="$PROJECT_DIR$/qiniu-api/pom.xml" />
+        <option value="$PROJECT_DIR$/user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/user-gate/pom.xml" />
+        <option value="$PROJECT_DIR$/user-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/public-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/user-auth/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/user-gate/src/main/java/pers/ownsky/trafficalert/usergate/filter/AuthFilter.java" />
+        <option value="$PROJECT_DIR$/user-gate/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -361,9 +334,42 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="public-utils" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="public-utils" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="user-auth" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="user-auth" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="user-auth" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-1707" />
+    <option name="y" value="498" />
     <option name="width" value="1936" />
     <option name="height" value="1096" />
   </component>
@@ -390,70 +396,42 @@
             <path>
               <item name="traffic-alert" type="b2602c69:ProjectViewProjectNode" />
               <item name="traffic-alert" type="462c0819:PsiDirectoryNode" />
-              <item name="data-access" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traffic-alert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traffic-alert" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traffic-alert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traffic-alert" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="traffic-alert" type="b2602c69:ProjectViewProjectNode" />
               <item name="traffic-alert" type="462c0819:PsiDirectoryNode" />
-              <item name="data-access" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traffic-alert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="traffic-alert" type="462c0819:PsiDirectoryNode" />
-              <item name="data-access" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traffic-alert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="traffic-alert" type="462c0819:PsiDirectoryNode" />
-              <item name="data-access" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dataaccess" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="traffic-alert" type="b2602c69:ProjectViewProjectNode" />
               <item name="traffic-alert" type="462c0819:PsiDirectoryNode" />
-              <item name="data-access" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dataaccess" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="traffic-alert" type="b2602c69:ProjectViewProjectNode" />
               <item name="traffic-alert" type="462c0819:PsiDirectoryNode" />
-              <item name="data-access" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dataaccess" type="462c0819:PsiDirectoryNode" />
-              <item name="datasource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traffic-alert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="traffic-alert" type="462c0819:PsiDirectoryNode" />
-              <item name="data-access" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dataaccess" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traffic-alert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="traffic-alert" type="462c0819:PsiDirectoryNode" />
-              <item name="data-access" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="managerapi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="traffic-alert" type="b2602c69:ProjectViewProjectNode" />
@@ -744,7 +722,7 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/SNL" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -781,7 +759,7 @@
     </option>
     <option name="contentProportion" value="0.2076096" />
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+  <component name="RunManager" selected="Maven.user-auth [package]">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -800,6 +778,81 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="data-access [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/data-access" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="eureka-server [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/eureka-server" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="user-auth [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/user-auth" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="DataAccessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="data-access" />
@@ -876,6 +929,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Maven.eureka-server [package]" />
+      <item itemvalue="Maven.data-access [package]" />
+      <item itemvalue="Maven.user-auth [package]" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.UserAuthApplication" />
       <item itemvalue="Spring Boot.QiniuApiApplication" />
@@ -887,6 +943,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.DataAccessApplication" />
+        <item itemvalue="Maven.user-auth [package]" />
+        <item itemvalue="Maven.data-access [package]" />
+        <item itemvalue="Maven.eureka-server [package]" />
       </list>
     </recent_temporary>
   </component>
@@ -924,16 +983,20 @@
       <workItem from="1555466714023" duration="50227000" />
       <workItem from="1557412971301" duration="38629000" />
       <workItem from="1557897552112" duration="8671000" />
+      <workItem from="1557998461165" duration="9270000" />
+      <workItem from="1558846850048" duration="15647000" />
+      <workItem from="1559270893022" duration="1612000" />
+      <workItem from="1559743267972" duration="742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="249230000" />
+    <option name="totallyTimeSpent" value="276501000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1688" y="508" width="1696" height="1026" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2200489" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -943,14 +1006,14 @@
       <window_info id="Structure" order="7" weight="0.24946696" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32810047" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
-      <window_info anchor="bottom" id="Run Dashboard" order="9" visible="true" weight="0.34056398" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="9" visible="true" weight="0.3497758" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32967034" />
       <window_info anchor="bottom" id="Terminal" order="12" />
@@ -962,13 +1025,13 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.14925373" />
+      <window_info anchor="right" id="Database" order="4" weight="0.17114915" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Bean Validation" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" />
-      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.3294621" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1049,239 +1112,22 @@
           <properties />
           <option name="timeStamp" value="49" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-auth/src/main/java/pers/ownsky/trafficalert/userauth/UserService.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-auth/src/main/java/pers/ownsky/trafficalert/userauth/AuthController.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager-api/src/main/java/pers/ownsky/trafficalert/managerapi/ManagerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="34" column="76" lean-forward="true" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager-api/src/main/java/pers/ownsky/trafficalert/managerapi/TaControllerAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager-api/src/main/java/pers/ownsky/trafficalert/managerapi/RestErrorDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/repository/CarPlateRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar!/org/springframework/aop/aspectj/AspectJAfterAdvice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="516" selection-start-line="516" selection-end-line="516" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public-utils/src/main/java/pers/ownsky/trafficalert/publicutils/json/UserNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="49" lean-forward="true" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-          <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public-utils/src/main/java/pers/ownsky/trafficalert/publicutils/json/RestException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager-api/src/main/java/pers/ownsky/trafficalert/managerapi/DataAccessService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/repository/RecordRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/controller/VO/Coordinate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-gate/src/main/java/pers/ownsky/trafficalert/usergate/service/UserAuthService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-gate/src/main/java/pers/ownsky/trafficalert/usergate/filter/AuthFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public-utils/src/main/java/pers/ownsky/trafficalert/publicutils/model/ModelBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/http/HttpEntity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.1.0/feign-core-10.1.0.jar!/feign/ReflectiveFeign.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="335" selection-start-line="335" selection-end-line="335" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/controller/CarPlateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/controller/TaControllerAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="524" column="44" lean-forward="true" selection-start-line="524" selection-start-column="44" selection-end-line="524" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="569" selection-start-line="569" selection-end-line="569" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/remoteservice/UserDataAccessService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://96d6098d-dc71-4291-a6d5-be35f13716bc/schema/testdb/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/DataAccessApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://96d6098d-dc71-4291-a6d5-be35f13716bc/schema/testdb/table/car_plate">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public-utils/src/main/java/pers/ownsky/trafficalert/publicutils/model/CarPlate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1303,59 +1149,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="63" column="8" lean-forward="true" selection-start-line="63" selection-start-column="8" selection-end-line="64" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/controller/UserServiceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-auth/src/main/java/pers/ownsky/trafficalert/userauth/UserAuthApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-auth/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/remoteservice/RestErrorDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="68" lean-forward="true" selection-start-line="20" selection-start-column="68" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qiniu-api/src/main/java/pers/ownsky/trafficalert/qiniuapi/OSSController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qiniu-api/src/main/java/pers/ownsky/trafficalert/qiniuapi/OSSService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
           <caret line="51" column="19" lean-forward="true" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/controller/RecordController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -1366,34 +1163,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://96d6098d-dc71-4291-a6d5-be35f13716bc/schema/testdb/table/record">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manager-api/src/main/java/pers/ownsky/trafficalert/managerapi/MQListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
+        <state relative-caret-position="255">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/model/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1404,10 +1180,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/model/ModelBase.java">
+    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/model/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1418,20 +1201,295 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public-utils/src/main/java/pers/ownsky/trafficalert/publicutils/model/Record.java">
+    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/model/ModelBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        <state relative-caret-position="119">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manager-api/src/main/java/pers/ownsky/trafficalert/managerapi/ManagerApiApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="238">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#442#443#0" expanded="true" />
             <element signature="e#514#515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/controller/TaControllerAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/controller/RecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://96d6098d-dc71-4291-a6d5-be35f13716bc/schema/testdb/table/record">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/remoteservice/RestErrorDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://96d6098d-dc71-4291-a6d5-be35f13716bc/schema/testdb/table/car_plate">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://96d6098d-dc71-4291-a6d5-be35f13716bc/schema/testdb/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qiniu-api/src/main/java/pers/ownsky/trafficalert/qiniuapi/MQSendService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-api/src/main/java/pers/ownsky/trafficalert/managerapi/ManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public-utils/src/main/java/pers/ownsky/trafficalert/publicutils/model/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-auth/src/main/java/pers/ownsky/trafficalert/userauth/UserAuthApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-auth/src/main/java/pers/ownsky/trafficalert/userauth/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies/Greenwich.SR1/spring-cloud-dependencies-Greenwich.SR1.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="22" selection-start-line="22" selection-start-column="4" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qiniu-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" selection-start-line="22" selection-start-column="4" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-gate/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/pers/ownsky/trafficalert/eurekaserver/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-auth/src/main/java/pers/ownsky/trafficalert/userauth/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-889">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-auth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public-utils/public-utils.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-compiler-plugin/3.8.0/maven-compiler-plugin-3.8.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1326" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public-utils/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-auth/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-gate/src/main/java/pers/ownsky/trafficalert/usergate/service/UserAuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-gate/src/main/java/pers/ownsky/trafficalert/usergate/UserGateApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/controller/UserServiceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-gate/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/pers/ownsky/trafficalert/dataaccess/controller/CarPlateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qiniu-api/src/main/java/pers/ownsky/trafficalert/qiniuapi/OSSController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/controller/TaControllerAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-gate/src/main/java/pers/ownsky/trafficalert/usergate/filter/AuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/pers/ownsky/trafficalert/userapi/remoteservice/UserDataAccessService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-api/src/main/java/pers/ownsky/trafficalert/managerapi/RestErrorDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1442,10 +1500,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>data-access:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1488,12 +1548,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>data-access</last-edited>
+          <last-edited>user-auth</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

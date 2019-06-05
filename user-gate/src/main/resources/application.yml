@@ -16,3 +16,23 @@ zuul:
       path: /user-api/**
       serviceId: ta-user-api
       unauthApi: [login, register, logout]
+feign:
+  hystrix:
+    enabled: false
+
+ribbon:
+  ConnectTimeout: 5000
+  ReadTimeout: 5000
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE
+          thread:
+            timeoutInMilliseconds:  120000
+          semaphore:
+            maxConcurrentRequests: 1000
+      circuitBreaker:
+        sleepWindowInMilliseconds:  5000
